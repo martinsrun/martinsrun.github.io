@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hitchhiker.ma" # the base hostname & protocol for your site
 
 author:
-  fullname: Abraham Martin
+  fullname: Martin
   #googleplus: https://www.google.com/+MotaquillahMaddane
   github: martinsrun
   #twitter: electrik_frog
