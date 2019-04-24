@@ -5,4 +5,4 @@ subtitle: Who I am
 permalink: /about/
 ---
 
-Some guy who writes a blog about something.
+Some guy who blogs on something.
