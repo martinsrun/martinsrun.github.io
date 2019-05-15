@@ -3,6 +3,36 @@
   
     
     <url>
+      <loc>http://localhost:4000/random/2019/05/15/looking-back.html/</loc>
+      
+        <lastmod>2019-05-15T05:30:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/random/2019/04/30/Spark-Streaming-and-everything-else.html/</loc>
+      
+        <lastmod>2019-04-30T19:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/random/2019/04/23/hello-world.html/</loc>
       
         <lastmod>2019-04-23T19:00:00+05:30</lastmod>
@@ -23,7 +53,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2019-04-24T17:02:28+05:30</lastmod>
+        <lastmod>2019-05-15T10:41:45+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -38,7 +68,7 @@
     <url>
       <loc>http://localhost:4000/categories/design/</loc>
       
-        <lastmod>2019-04-24T17:02:28+05:30</lastmod>
+        <lastmod>2019-05-15T10:41:45+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -55,7 +85,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2019-04-24T17:02:28+05:30</lastmod>
+        <lastmod>2019-05-15T10:41:45+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -72,7 +102,7 @@
     <url>
       <loc>http://localhost:4000/categories/productivity/</loc>
       
-        <lastmod>2019-04-24T17:02:28+05:30</lastmod>
+        <lastmod>2019-05-15T10:41:45+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -87,7 +117,7 @@
     <url>
       <loc>http://localhost:4000/categories/random/</loc>
       
-        <lastmod>2019-04-24T17:02:28+05:30</lastmod>
+        <lastmod>2019-05-15T10:41:45+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -106,7 +136,7 @@
     <url>
       <loc>http://localhost:4000/categories/tools/</loc>
       
-        <lastmod>2019-04-24T17:02:28+05:30</lastmod>
+        <lastmod>2019-05-15T10:41:45+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
