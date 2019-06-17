@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Clocks"
+subtitle: "Lamport and Vector"
+date:   2019-04-23 13:30:00
+categories: [programming,distributed]
+---
+><https://amturing.acm.org/p558-lamport.pdf>
+
+In the days before consensus in distributed systems became a thing, and far before ideas of cluster manager frameworks or process schedulers had emerged we had clocks.
+
+You have process running on systems that aren't exactly aware of each other, but needs some sort of ordering in the way they behave while communication is asynchronous  and prone to network delays/faults.
+Say an event is the cause of another to happen, then ideally the cause should be processed before the result is, but this is not always the case. Or say you requested your e-commerce app to add 10 bananas into your cart and then to check out, but the first request gets delayed and both reaches the server at the same time.. No banana?
+Each update/request event to a different node sends along a logical timestamp (physical is not practical), which is the number of ticks since the system started. The receiver confirms if the event updates its timestamp to max between current timestamp and (request timestamp+time for event), then sends success response.
+Lamport clock timestamps ensures causal ordering, if an event a causes event b, we can know that the timestamp for event a is less that that for event b.
+
+
+Vector clocks are an extension to Lamport clocks, that instead of sending it's own timestamp sends a vector of all its communication's timestamp along with the event. Hence the receiver when getting the event can decide if it has an updated version of the event from another node.
+Vector are used in Amazon's older dynamo data stores.
