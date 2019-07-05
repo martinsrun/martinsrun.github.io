@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java absolute - I"
-subtitle: "90 points to make your life"
+subtitle: "90 points to make your coffee"
 date:   2019-05-16 00:00:00
 categories: [programming,books,java]
 ---

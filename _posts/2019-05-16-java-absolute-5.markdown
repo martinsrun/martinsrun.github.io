@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Java absolute - V"
-subtitle: "90 points to make your life"
-date:   2019-05-17 00:00:00
+subtitle: "90 points to make your coffee"
+date:   2019-05-30 00:00:00
 categories: [programming,books,java]
 ---
 
-## 4. Enums and Annotations
+## 5. Enums and Annotations
  > JAVA supports two special-purpose families of reference types: a kind of class called an enum type, and a kind of interface called an annotation type.
 
 ### 34. Use enums over int Constants

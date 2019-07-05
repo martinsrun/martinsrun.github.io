@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java absolute - II"
-subtitle: "90 points to make your life"
+subtitle: "90 points to make your coffee"
 date:   2019-05-17 00:00:00
 categories: [programming,books,java]
 ---
@@ -20,7 +20,7 @@ This is a multi-part? series on the book Absolute Java 3rd edition by Joshua Blo
     - Reflexive : Object must be equal to itself, hard to break unless intentionally.
     - Symmetric : a.equals(b) => b.equals(a) . This can be easily broken if a new one type tries to provide equivalence to an existing type. eg, new type CaseInsensitiveString implementing equals with String.
     - Transitive : This guy is tricky, but finally there is no way in Java that we can extend an instantiable value  class, add an additional property and uphold all equivalence needs. Start with a class point with 2 properties, x and y for coordinates, implementing equals that compare co-ordinates. Extend it into ColoredPoint adding a "color" property. A naive way to implement equals would be to compare the new color property if other object is a ColoredPoint, otherwise use super Class's equals.
-      ~~~java
+      ```java
       // equals method in ColoredPoint class
       public boolean equals(Object o){
         if(O instance of ColoredPoint && !((ColoredPoint)O).getColor().equals(this.getColor()){
@@ -31,7 +31,7 @@ This is a multi-part? series on the book Absolute Java 3rd edition by Joshua Blo
         }
         return false;
       }
-    ~~~
+    ```
     - This looks fine at the first glance, but assume we have 3 points,
       a =  (1,2,Red), b=(1,2), c=(1,2,Green)
       a.equals(b) is true, b.equals(c) is true, but c.equals(a) is false, breaking transitivity.
