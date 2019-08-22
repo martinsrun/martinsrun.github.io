@@ -7,9 +7,9 @@ categories: [programming,distributed]
 ---
 ><https://amturing.acm.org/p558-lamport.pdf>
 
-In the days before consensus in distributed systems became a thing, and far before ideas of cluster manager frameworks or process schedulers had emerged we had clocks.
+Before consensus in distributed systems became a thing, and far before ideas of cluster manager frameworks or distributed process schedulers had emerged, we had clocks.
 
-You have process running on systems that aren't exactly aware of each other, but needs some sort of ordering in the way they behave while communication is asynchronous  and prone to network delays/faults.
+Say you have process running on systems that aren't quiet aware of each other, and needs some ordering in the way they behave with asynchronous communication and network delays/faults.
 Say an event is the cause of another to happen, then ideally the cause should be processed before the result is, but this is not always the case. Or say you requested your e-commerce app to add 10 bananas into your cart and then to check out, but the first request gets delayed and both reaches the server at the same time.. No banana?
 Each update/request event to a different node sends along a logical timestamp (physical is not practical), which is the number of ticks since the system started. The receiver confirms if the event updates its timestamp to max between current timestamp and (request timestamp+time for event), then sends success response.
 Lamport clock timestamps ensures causal ordering, if an event a causes event b, we can know that the timestamp for event a is less that that for event b.
