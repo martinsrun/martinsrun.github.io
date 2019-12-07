@@ -2,7 +2,7 @@
 layout: post
 title:  "Java Effective - XI"
 subtitle: "90 points to make your coffee"
-date:   2019-06-24 00:00:00
+date:   2019-08-24 00:00:00
 categories: [programming,books,java]
 ---
 
@@ -50,7 +50,7 @@ categories: [programming,books,java]
 ### 88. Make readObject methods defensive
   - For classes with object reference fields that should remain private, defensive copy the deserialized reference, then validate before storing the reference.
 
-### 89. For instance control prefer enum types to readResolve.  
+### 89. For instance control prefer enum types to readResolve.
 
 ### 90. Consider serialization proxies to instance serialization
   - A private static nested class that is serializable instead of the actual one.
