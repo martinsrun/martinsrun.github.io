@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Grow into the next decade"
+subtitle: "A generalist engineer in a specialist world"
+date:   2016-12-23 11:30:00
+categories: [random]
+---
+
+
+>>  Know everything about something, something about everything
+
+Java (3 books):
+ - Design patterns, complete full blog with code samples
+ - Java Performance: The Definitive Guide - Blog notes
+ - Concurrency in practice - Blog notes
+ https://wiki.sei.cmu.edu/confluence/display/java/SEI+CERT+Oracle+Coding+Standard+for+Java
+
+General Code (3 books):
+  - Code complete, complete Blog
+  - Pragmatic programmer 2, Blog
+  - Clean Architecture, Blog
+
+Distributed systems: https://github.com/theanalyst/awesome-distributed-systems
+
+Cloud:
+  - Kubernetes/docker for java developers
+  - Learn/Practice using Kubernetes
+  - Kubernetes developer certification
+  - Kafka, learn fundamentals and first Principals
+  - Kafka, native
+  - Reactive Java and Scala
+
+Languages:
+  - Scala
+  - Basic Go (2nd half)
+
+Front end UX
+  - Getting into React
+
+Running project :
+  - Spring cloud app on reactive webflux with kakfa, distributed deployment on kubernetes
+
+
+January:
+  - Design patterns, complete full blog with code samples
+  - Scala review, reactive scala and java

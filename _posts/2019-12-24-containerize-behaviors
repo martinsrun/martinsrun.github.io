@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Engineering habits"
+subtitle: "Compartmetalizing the helpful way"
+date:   2019-12-24 22:30:00
+categories: [random]
+---
+
+Staying on habit goals is always a challenge for us feeble-minded subjects of little to no attention span. What usually tends to work for me is setting out a routine and single midedly adhering to it. This means sleep early, wake up by 5:30 AM, run, head to work, read on the way, emails, breakfast and then work without distractions. Almost a pavalovian conditioning to this routine worked well for a while, but the day something changes or brings in the slightest uncertainty in life, everyting fails. No more morning runs even though evenings are absolute free to sleep early, no more daily reading though hours are spent unproductive on the net, and no fixed work schedule.
+
+My current work schedule allows lots of free time to study and explore, but without a fixed schedule motivation fails. I start running with the intent of completing some weeks of mileage training, but a weekend party day or travel throws everything into chaos.
+
+To the software engineer in me the problem isnt behevioral, but in design. My beheviors module is too tightly coupled with my schedules module, hence independent changes to them isnt possible. Any changes in schedule affects behevior and vice-versa.
+
+The state of being:
+Every second of my life is affected by the mental state at that point in time. Feeling good, awesome, lets get something done, run, talk well, be happy in general. Feel bad/tired, hang around doing nothing, dont feel like working, cant get shit done, leave me alone. Having a hard schedule allowed bypassing this dependence, when behevior is directly tied to schedule instead of the state at any given time. When schedule breaks down, this fails, and behevior is again tied to feeling.And the answer to "what do i feel like doing now" is never something productive.
+
+Coupling : Schedule <- state <- behevior
+Decouple : Behevior is goal, define it first. Try to push for state to achieve necessary behevior, if not possible, push for behevior. 

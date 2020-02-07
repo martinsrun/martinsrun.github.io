@@ -1,11 +1,17 @@
 - slug: design
-  name: Design
+  name: design
 
 - slug: tools
-  name: Tools
+  name: tools
 
 - slug: productivity
-  name: Productivity
+  name: productivity
 
 - slug: random
   name: random
+
+- slug: programming
+  name: programming
+
+- slug: books
+  name: books

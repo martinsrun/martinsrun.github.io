@@ -1,0 +1,23 @@
+Reactive Systems : Readily responsive to stimulus
+ - Reacts to events (event-driven)
+ - Reacts to load (scalable)
+ - Reacts to failures (resilient)
+ - Reacts to users (responsive)
+
+
+ - Event Driven:
+    - Being event driven supports scalability and resilience
+    - Traditional system has threads communicating with shared mutable states, resulting in strong coupling and were hard to componse
+    - Event driven systems use decoupled event handlers that are non-blocking and asynchronous. This allows better resource utilization.
+
+  - Scalable:
+    - Minimizing shared mutalble state is important for scalability.
+    - To scale out, system should be location independent and should be resilient to node failures
+
+  - Resilience:
+    - Quick recovery from failures, internal or external
+    - Resilience should be a design goal of the system and cannot be later added on
+
+  - Responsive
+    - Rich real time user-experience even under high load and in the presence of failures
+    - Responsiveness can be provided by an event-driven, scalable and resilient system
