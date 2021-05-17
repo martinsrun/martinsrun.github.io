@@ -10,8 +10,31 @@ categories: [freecodecamp,learning]
 # Basic CSS
 CSS inspires more terror than any complex problem.. Give me a hard alogrithem problem any day, but dont ask to center align text on a div. Finally committing to learn something this basic, its actually not difficuly, judt annoying..
 
-First few lessons were all about css elements, styling texts with colors, fonts sizes, styling images with borders.. Things to note are, elements can be picked of a page by element-type, id (referenced by "#id"), or better by class (referenced by ".class"). Id takes precedence over class..
+First few lessons were all about css elements, styling texts with colors, fonts sizes, styling images with borders.. Things to note are, elements can be referenced of a page by 'selectors'
+element-type, 
+id (referenced by "#id"), Id takes precedence over other selectors
+class (referenced by ".class"). 
+attribute selector (eg, [type="radio"] [type="checkbox"])
 
 3 important properties surround each html element: padding, border, margin
 Padding: controls distance between an element content and its border, distance between text inside a box and the border of the box. Padding on each side of an element can be individually controlled by padding-left, padding-right, padding-top, padding-bottom. Or in a single line as padding: 10px 20px 10px 20px; (top, right,bottom,left)
 Margin: Controls distance between an element's border and its surrounding element. A large margin can make an element appear smaller since it allocates more space outside. Margin for each side of an element can be controlled by, margin-top, margin-bottom, margin-left, margin-right. Or in a single line with margin: 10px 20px 10px 20px; (top, right,bottom,left)
+
+
+Absolute vs Relative: Abslolute are units of measure, eg px/in/cm.. Relative are relative to some other length, eg em/rem
+
+Style Inheritance:
+Wrapped elements inherit style specified on wrapping elements. Hence any style specified against a <body> is applied on all elements contained within the body. When multiple styles are applicable on an element, the most specific one takes precedence, ie the closest wrapping style. If there are multiple styles that have equal precedence (multiple classes on the same element each with different styles), the one declared last on the stylesheet is applied.
+Id styles take precedence over class style on an element. In-line styles take precedence over Id and class.
+A particular style can be given priority over all others by specyfying it to me the most imporant with "!important".
+
+
+Colors as Hexadecimals and RGB:
+Hex representation is as 6 hex characters, 2 for each color. Both Hex and RGB uses 8 bits to represent intensity of primary colors, 0 as none to 256 as max with in hex is 00 to FF. 
+Hex representation can be shortened to 3 hex characters for easiness when it is obvious, ie, #FF00FF = #F0F
+
+
+
+CSS allows for variables to be declared and used across multiple style elements.  Variables are declared in a style element as (--variable-name: value;), and can be referenced across the style sheet with "var(--variable-name);"
+
+For backwards compatibility across browsers, redundant style declerations are provided as fallbacks incase the ideal style is not supported on some browsers. Common supported styles are specified before the actual style on the same class selector, since the final selection will be picked if its supported.
