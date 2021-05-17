@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Free Code Camp"
+subtitle: "Front-end or bust"
+date:   2021-05-16 19:30:00
+categories: [freecodecamp,learning]
+---
+><https://www.freecodecamp.org/learn/responsive-web-design/>
+
+# Basic CSS
+CSS inspires more terror than any complex problem.. Give me a hard alogrithem problem any day, but dont ask to center align text on a div. Finally committing to learn something this basic, its actually not difficuly, judt annoying..
+
+First few lessons were all about css elements, styling texts with colors, fonts sizes, styling images with borders.. Things to note are, elements can be picked of a page by element-type, id (referenced by "#id"), or better by class (referenced by ".class"). Id takes precedence over class..
+
+3 important properties surround each html element: padding, border, margin
+Padding: controls distance between an element content and its border, distance between text inside a box and the border of the box. Padding on each side of an element can be individually controlled by padding-left, padding-right, padding-top, padding-bottom. Or in a single line as padding: 10px 20px 10px 20px; (top, right,bottom,left)
+Margin: Controls distance between an element's border and its surrounding element. A large margin can make an element appear smaller since it allocates more space outside. Margin for each side of an element can be controlled by, margin-top, margin-bottom, margin-left, margin-right. Or in a single line with margin: 10px 20px 10px 20px; (top, right,bottom,left)
